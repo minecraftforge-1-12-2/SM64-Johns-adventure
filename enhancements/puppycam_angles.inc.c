@@ -10,7 +10,7 @@
 struct newcam_hardpos newcam_fixedcam[] =
 {
 
-#ifdef PUPPYCAM_SAMPLES
+//#ifdef PUPPYCAM_SAMPLES
 // Example Scripts
 {/*Level ID*/ 16,/*Area ID*/ 1,/*Permaswap*/ 0,/*Mode*/ NC_MODE_FIXED_NOMOVE,/*Script*/ 0, //Standard params.
 /*X begin*/ -540,/*Y begin*/ 800,/*Z begin*/ -3500, //Where the activation box begins
@@ -24,6 +24,5 @@ struct newcam_hardpos newcam_fixedcam[] =
 /*X end*/ 6908,/*Y end*/ 1000,/*Z end*/ 62, //Where the activation box ends.
 /*Cam X*/ 32767,/*Cam Y*/ 32767,/*Cam Z*/ 32767, //The position the camera gets placed for NC_MODE_FIXED and NC_MODE_FIXED_NOMOVE
 /*Look X*/ 32767,/*Look Y*/ 32767,/*Look Z*/ 32767}, //The position the camera looks at for NC_MODE_FIXED_NOMOVE
-#endif
 
 };
